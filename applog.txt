@@ -1,0 +1,42 @@
+DEBUG   2019-03-22 00:46:05,055 [main] FirstTest  - before all
+DEBUG   2019-03-22 00:46:05,069 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:05,071 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:46:05,088 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:05,097 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:46:05,127 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:05,128 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:46:45,330 [main] FirstTest  - before all
+DEBUG   2019-03-22 00:46:45,354 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:45,356 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:46:45,385 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:45,386 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:46:45,420 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:46:45,421 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:47:12,356 [Test worker] FirstTest  - before all
+DEBUG   2019-03-22 00:47:12,371 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:47:12,374 [Test worker] FirstTest  - first test
+DEBUG   2019-03-22 00:47:12,398 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:47:12,398 [Test worker] FirstTest  - first test
+DEBUG   2019-03-22 00:47:12,407 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:47:12,408 [Test worker] FirstTest  - first test
+DEBUG   2019-03-22 00:48:03,946 [main] FirstTest  - before all
+DEBUG   2019-03-22 00:48:03,965 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:48:03,967 [main] FirstTest  - first test
+DEBUG   2019-03-22 00:48:04,020 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:48:04,020 [main] FirstTest  - second test
+DEBUG   2019-03-22 00:48:04,048 [main] FirstTest  - before each
+DEBUG   2019-03-22 00:48:04,049 [main] FirstTest  - terceiro test
+DEBUG   2019-03-22 00:49:34,304 [Test worker] FirstTest  - before all
+DEBUG   2019-03-22 00:49:34,317 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:49:34,319 [Test worker] FirstTest  - first test
+DEBUG   2019-03-22 00:49:34,348 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:49:34,348 [Test worker] FirstTest  - second test
+DEBUG   2019-03-22 00:49:34,354 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:49:34,355 [Test worker] FirstTest  - terceiro test
+DEBUG   2019-03-22 00:50:01,926 [Test worker] FirstTest  - before all
+DEBUG   2019-03-22 00:50:01,942 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:50:01,944 [Test worker] FirstTest  - first test
+DEBUG   2019-03-22 00:50:01,966 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:50:01,967 [Test worker] FirstTest  - second test
+DEBUG   2019-03-22 00:50:01,973 [Test worker] FirstTest  - before each
+DEBUG   2019-03-22 00:50:01,973 [Test worker] FirstTest  - terceiro test
