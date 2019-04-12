@@ -2,8 +2,11 @@ import io.restassured.response.Response;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
+import org.junit.jupiter.params.provider.CsvSource;
+
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("A special test case")
 public class FirstTest {
@@ -20,7 +23,6 @@ public class FirstTest {
 
     @BeforeEach
     void init() {
-
         logger.debug("before each");
     }
 
@@ -36,9 +38,16 @@ public class FirstTest {
     @Tag("slow")
     @Test
     @DisplayName("😱")
-    public void testTwo(){
+    @ParameterizedTest(name = "{0} + {1} = {2}")
+    @CsvSource({
+            "0,    1,   1",
+            "1,    2,   3",
+            "49,  51, 100",
+            "1,  100, 101"
+    })
+    public void testParametrizedTest(){
         logger.debug("second test");
-        fail("):");
+        assertTrue(true);
     }
 
     @Tag("aaa")
@@ -46,6 +55,6 @@ public class FirstTest {
     @DisplayName("😱")
     public void testThree(){
         logger.debug("terceiro test");
-        fail("D:");
+        assertTrue(true);
     }
 }
