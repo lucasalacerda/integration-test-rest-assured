@@ -3,11 +3,11 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+@Tag("firstTest")
 @DisplayName("A special test case")
 public class FirstTest {
 
@@ -46,6 +46,16 @@ public class FirstTest {
             "1,  100, 101"
     })
     public void testParametrizedTest(){
+        logger.debug("second test");
+        assertTrue(true);
+    }
+
+    @Tag("slow")
+    @Test
+    @DisplayName("😱")
+    @ParameterizedTest(name = "{0} + {1} = {2}")
+    @CsvSource({})
+    public void testParametrizedCsvTest(){
         logger.debug("second test");
         assertTrue(true);
     }

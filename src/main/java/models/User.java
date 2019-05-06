@@ -3,12 +3,12 @@ package models;
 public class User {
 
     int id;
-    String FirstName;
+    String firstName;
     String lastName;
 
     public User(int id, String firstName, String lastName) {
         this.id = id;
-        FirstName = firstName;
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 
@@ -17,7 +17,7 @@ public class User {
     }
 
     public String getFirstName() {
-        return FirstName;
+        return firstName;
     }
 
     public String getLastName() {
